@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+    margin:0px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
+.container-1
+{
+height:100vh;
+width: 18vw;
+background-color: blue;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.container-inner-1
+{
+    height: 30vh;
+    width: 18vw;
+    background-color: black;
+}
+.container .container-1 .container-inner-1 button
+{
+    font-size:x-large;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #d1b24a;
+    border: none;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+.container .container-1 .container-inner-1 button:hover
+{
+   cursor: pointer;
+   background-color: blue;
+}
+.container .container-1 .container-inner-2
+{
+    height: 50vh;
+    width: 18vw;
+    background-color:black;
+    color: aqua;
+}
+.container .container-1  .container-inner-3
+{
+    height: 20vh;
+    width: 18vw;
+    background-color: black;
+    
+}
+.container .container-1 .container-inner-3 button
+{
+    background-color:#d1b24a;
+    margin-bottom: 5vh;
+    margin-left: 2.5vw;
+    color: black;
+    border: none;
+    font-size: larger;
+    padding: 12px;
+    margin-top:  2.5vw ;
+}
+.container .container-1 .container-inner-3 button:hover
+{
+    background-color:blue;
+    cursor: pointer;
+}
+.container-inner-2 ul
+{
+    list-style-type: none;
+    line-height: 32px;   
+}
+.container-inner-2 ul li
+{
+    font-size:large;
+}
+.container .container-2
+{ 
+  height:100vh;
+  width: 82vw;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.container .container-2 .container-2-inner
+{ 
+ margin-top: 6vh;
+ margin-left: 2vw;
+ height: 40vh;
+ width: 60vw;
+}
+
+#tag
+{
+    /* background-color: white; */
+    color: white;
+    font-size: 28px;
+}
+.button
+{
+    font-family: 'Roboto';
+}
